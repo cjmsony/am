@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账号详情与加群</title>
+    <style>
+        body { 
+            font-family: "Microsoft YaHei", Arial, sans-serif; 
+            padding: 20px; 
+            background-color: #f4f6f9; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+        }
+        .card { 
+            max-width: 500px; 
+            width: 100%; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+        }
+        /* 核心文案区域样式 */
+        .desc {
+            font-size: 18px; 
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .highlight { color: #d9534f; font-weight: bold; }
+        
+        /* 蓝色跳转按钮样式 */
+        .btn { 
+            display: block; 
+            width: 100%;
+            padding: 18px 30px; 
+            background: #007bff; 
+            color: white !important; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 20px; 
+            text-align: center;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+        }
+        .btn:hover { 
+            background: #0056b3; 
+            transform: translateY(-2px); 
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- 核心文案区域 -->
+        <div class="desc">
+            🌍 <strong>海外国际帐号，高质量独享号，支持改密</strong><br><br>
+            ⚠️ <span class="highlight">闲鱼非最终价格，介意请申请退款谢谢！</span><br><br>
+            🐧 <strong>交流企鹅群</strong>：892351936<br><br>
+            🔍 能找到我们，就一定有你需要的。<br>
+            🤖 千万别在TB提问，无人值守，感谢理解。<br>
+            📝 TB上面有很多是无法回复的，所以无人工，还请理解。
+        </div>
+
+        <!-- 
+          核心修改：使用 QQ 官方 HTTP 加群协议 
+          替换了之前容易被拦截的 mqqapi:// 协议
+        -->
+        <a href="https://qm.qq.com/q/CjcCgiywsE " class="btn">点击一键加群</a >
+    </div>
+</body>
+</html>
